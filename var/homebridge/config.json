@@ -1,0 +1,22 @@
+{
+    "bridge": {
+        "name": "Homebridge",
+        "username": "B8:27:EB:59:E1:94",
+        "port": 51826,
+        "pin": "031-45-154"
+    },
+
+    "description": "Raspberry Pi",
+
+    "accessories": [],
+
+    "platforms": [{
+        "platform": "cmdSwitch2",
+        "switches": [{
+            "name": "Link Station",
+            "on_cmd": "/home/pi/Documents/Projects/HomeKit/link_station.rb on",
+            "off_cmd": "/home/pi/Documents/Projects/HomeKit/link_station.rb off",
+            "state_cmd": "/home/pi/Documents/Projects/HomeKit/link_station.rb state"
+        }]
+    }]
+}
