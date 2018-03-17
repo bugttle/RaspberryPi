@@ -1,0 +1,15 @@
+[Unit]
+Description=Node.js GoogleHome Server 
+After=syslog.target network-online.target
+
+[Service]
+Type=simple
+User=googlehome
+EnvironmentFile=/etc/default/googlehome
+ExecStart=/usr/bin/node /home/pi/Projects/GoogleHome/index.js
+Restart=on-failure
+RestartSec=10
+KillMode=process
+
+[Install]
+WantedBy=multi-user.target
