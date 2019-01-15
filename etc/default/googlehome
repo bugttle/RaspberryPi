@@ -1,5 +1,0 @@
-# Defaults / Configuration options for googlehome
-
-# If you uncomment the following line, homebridge will log more 
-# You can display this via systemd's journalctl: journalctl -f -u googlehome
-# DEBUG=*

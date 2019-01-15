@@ -1,0 +1,5 @@
+# Defaults / Configuration options for google-home
+
+# If you uncomment the following line, google-home will log more 
+# You can display this via systemd's journalctl: journalctl -f -u google-home
+# DEBUG=*
